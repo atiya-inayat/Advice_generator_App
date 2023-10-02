@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bebas+Neue&family=Comfortaa&family=Dancing+Script&family=Great+Vibes&family=Kaushan+Script&family=Lobster&family=Manrope&family=Montserrat:wght@100&family=Nunito&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Overpass&family=Poppins:ital,wght@0,700;1,400&family=Tangerine&family=Tilt+Prism&display=swap");
+
+body {
+  margin: 0;
+  background-color: hsl(218, 23%, 16%);
+  color: white;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#Advice {
+  color: hsl(150, 100%, 66%);
+  font-family: Manrope;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+}
+
+.advice-num {
+  color: hsl(150, 100%, 66%);
+  font-family: Manrope;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+}
+
+.advice_text {
+  color: hsl(193, 38%, 86%);
+  font-size: 23px;
+  font-weight: 800;
+  padding: 10px;
+  margin: 5px;
+}
+
+.fa-solid {
+  color: hsl(193, 38%, 86%);
+  font-size: 2rem;
+}
+
+/* .pause-icon:before {
+  content: "";
+  display: block;
+  width: 220px;
+  height: 1px;
+  background: hsl(192, 4%, 49%);
+  left: 0;
+  position: absolute;
+}
+.pause-icon:after {
+  content: "";
+  display: block;
+  width: 220px;
+  height: 1px;
+  background: hsl(192, 4%, 49%);
+  right: 0;
+  position: absolute;
+} */
+
+.fa-cubes {
+  color: hsl(218, 23%, 16%);
+  border-radius: 10px 100px / 120px;
+  background-color: hsl(150, 100%, 66%);
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.bottom-icon {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+}
+
+.bottom-icon:active {
+  box-shadow: 2px 2px 2px 2px hsl(150, 100%, 66%);
+}
+.bottom-icon:hover {
+  box-shadow: 1px 5px 5px 5px hsl(150, 100%, 66%);
+}
+
+blockquote {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+blockquote:before {
+  content: open-quote;
+}
+
+blockquote:after {
+  content: close-quote;
+}
+
+blockquote:before,
+blockquote:after {
+  display: inline-block;
+  vertical-align: text-bottom;
+  color: hsl(193, 38%, 86%);
+  font-size: 1.5rem;
+  top: 0.2em;
+  position: relative;
+}
